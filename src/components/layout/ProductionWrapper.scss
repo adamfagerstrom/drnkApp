@@ -1,0 +1,23 @@
+.imagecontainer {
+  background-color: #f1f1f1;
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2rem auto;
+  img {
+    display: block;
+    max-height: 295px;
+    max-width: 100%;
+  }
+}
+
+.card-heading {
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 0.5rem;
+  margin: 0 auto 0.5rem auto;
+}
+.card-desc {
+  color: rgba(255, 255, 255, 0.6);
+}

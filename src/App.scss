@@ -1,0 +1,52 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 64px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 12px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12);
+  .logo {
+    flex: 0 0 60%;
+    padding-left: 5%;
+    font-family: "Podkova";
+    font-size: 40px;
+  }
+  .nav-links {
+    flex: 0 0 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 100%;
+    a {
+      flex: 0 0 33.33%;
+      height: 100%;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.87);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      &:hover {
+        background-color: #a8eafc73;
+      }
+    }
+  }
+}
+
+.App {
+  margin-top: 64px;
+}

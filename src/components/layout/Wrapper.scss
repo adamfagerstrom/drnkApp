@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/img/eeshan-garg-KYuANAfgTWA-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  .wrapper__content {
+    position: absolute;
+    top: 30vh;
+    color: rgba(255, 255, 255, 0.87);
+    left: 32px;
+    h1 {
+      font-size: 54px;
+      width: 40vw;
+      margin-bottom: 1rem;
+    }
+  }
+}
